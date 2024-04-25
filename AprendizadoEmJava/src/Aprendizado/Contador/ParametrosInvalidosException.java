@@ -1,4 +1,4 @@
-package Aprendizado.ProcessoSeletivo;
+package Aprendizado.Contador;
 
 public class ParametrosInvalidosException extends Exception {
 
