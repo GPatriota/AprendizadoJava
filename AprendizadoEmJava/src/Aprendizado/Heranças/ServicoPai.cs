@@ -1,3 +1,4 @@
+package Aprendizado.Heranças;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,10 @@ namespace AprendizadoEmJava.src.Aprendizado.Heranças
     {
         public void enviarMensagem() {
 		//primeiro confirmar se esta conectado a internet
-		validarConectadoInternet();
-		System.out.println("Enviando mensagem");
+		    validarConectadoInternet();
+		    System.out.println("Enviando mensagem");
 		//depois de enviada, salva o histórico da mensagem
-		salvarHistoricoMensagem();
+		    salvarHistoricoMensagem();
 	    }
         public void receberMensagem() {
             System.out.println("Recebendo mensagem");

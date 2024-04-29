@@ -1,5 +1,6 @@
 package Aprendizado.ContaBanco;
 
+
 public class Usuario {
     public static void main(String[] args) throws Exception {
         ContaTerminal conta = new ContaTerminal();
