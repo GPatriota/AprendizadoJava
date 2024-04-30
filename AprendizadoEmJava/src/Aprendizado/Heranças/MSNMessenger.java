@@ -1,11 +1,6 @@
 package Aprendizado.Heranças;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace AprendizadoEmJava.src.Aprendizado.Heranças
-{
+
     public class MSNMessenger extends ServicoPai{
         
         public void enviarMensagem() {
@@ -15,4 +10,3 @@ namespace AprendizadoEmJava.src.Aprendizado.Heranças
             System.out.println("Recebendo mensagem pelo MSN Messenger");
         }
     }
-}
